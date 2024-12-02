@@ -1,0 +1,95 @@
+{
+    "experiment_id": "default_experiment_1",
+    "run_id": "e113eb94-fd1f-4730-a5c6-ac16c4e658e0",
+    "observation_id": "1b84dbb7-10c6-405d-9c33-6320fdad7a8d",
+    "obs_timestamp": "2024-12-01T11:55:42.465418+00:00",
+    "start_time": "2024-12-01T11:55:42.465425+00:00",
+    "end_time": "2024-12-01T11:55:54.630720+00:00",
+    "duration": 12.165294885635376,
+    "input_log": "what is python",
+    "output_log": {
+        "ResponseMetadata": {
+            "RequestId": "4ee6d0ba-cd84-49a3-be25-425e798804c9",
+            "HTTPStatusCode": 200,
+            "HTTPHeaders": {
+                "date": "Sun, 01 Dec 2024 11:55:54 GMT",
+                "content-type": "application/json",
+                "content-length": "2733",
+                "connection": "keep-alive",
+                "x-amzn-requestid": "4ee6d0ba-cd84-49a3-be25-425e798804c9"
+            },
+            "RetryAttempts": 0
+        },
+        "output": {
+            "message": {
+                "role": "assistant",
+                "content": [
+                    {
+                        "text": "Python is a popular, high-level, general-purpose programming language. It was created by Guido van Rossum and first released in 1991. Here are some key points about Python:\n\n1. High-Level Language: Python is a high-level language, which means it is closer to human-readable form and abstracts away many low-level details of the computer's hardware.\n\n2. Interpreted Language: Python is an interpreted language, which means that the source code is executed line by line without being compiled into machine code first. This makes Python more flexible and easier to debug.\n\n3. Dynamically Typed: Python is dynamically typed, meaning that you don't need to declare the type of a variable explicitly. The interpreter figures out the type of a variable at runtime.\n\n4. Object-Oriented: Python supports object-oriented programming (OOP), which allows you to create reusable code by defining classes and objects.\n\n5. Easy to Learn: Python has a simple and clean syntax that emphasizes readability, making it easy to learn, especially for beginners.\n\n6. Cross-Platform: Python is cross-platform, meaning that Python code can run on various operating systems like Windows, macOS, and Linux with little or no modifications.\n\n7. Extensive Libraries: Python has a vast collection of standard libraries and third-party modules for various purposes, such as data analysis, web development, machine learning, and more.\n\n8. Versatile: Python is a versatile language used for a wide range of applications, including web development, scientific computing, data analysis, artificial intelligence, automation, and more.\n\nPython's simplicity, readability, and extensive libraries make it a popular choice for beginners learning programming, as well as for experienced developers working on a variety of projects across different domains."
+                    }
+                ]
+            }
+        },
+        "stopReason": "end_turn",
+        "usage": {
+            "inputTokens": 10,
+            "outputTokens": 387,
+            "totalTokens": 397
+        },
+        "metrics": {
+            "latencyMs": 11441
+        },
+        "trace": {
+            "guardrail": {
+                "inputAssessment": {
+                    "gf1n57xgv52p": {
+                        "invocationMetrics": {
+                            "guardrailProcessingLatency": 277,
+                            "usage": {
+                                "topicPolicyUnits": 0,
+                                "contentPolicyUnits": 1,
+                                "wordPolicyUnits": 1,
+                                "sensitiveInformationPolicyUnits": 0,
+                                "sensitiveInformationPolicyFreeUnits": 0,
+                                "contextualGroundingPolicyUnits": 0
+                            },
+                            "guardrailCoverage": {
+                                "textCharacters": {
+                                    "guarded": 14,
+                                    "total": 14
+                                }
+                            }
+                        }
+                    }
+                },
+                "outputAssessments": {
+                    "gf1n57xgv52p": [
+                        {
+                            "invocationMetrics": {
+                                "guardrailProcessingLatency": 243,
+                                "usage": {
+                                    "topicPolicyUnits": 0,
+                                    "contentPolicyUnits": 2,
+                                    "wordPolicyUnits": 2,
+                                    "sensitiveInformationPolicyUnits": 0,
+                                    "sensitiveInformationPolicyFreeUnits": 0,
+                                    "contextualGroundingPolicyUnits": 0
+                                },
+                                "guardrailCoverage": {
+                                    "textCharacters": {
+                                        "guarded": 1814,
+                                        "total": 1814
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "call_type": "Converse-API",
+    "feature_name": null,
+    "feedback_enabled": true,
+    "logging_duration": 3.6716461181640625e-05
+}
